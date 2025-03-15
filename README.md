@@ -1,6 +1,4 @@
 # DSA-SheetS-Solutions
-This repository contains solutions to multiple Data Structures and Algorithms (DSA) problem sheets from different creators. The solutions are implemented in C++ and categorized by sheet and topic. The goal is to systematically improve problem-solving skills with optimized approaches
-# DSA Sheets Solutions
 
 This repository contains my solutions to multiple Data Structures and Algorithms (DSA) problem sheets from various creators. The goal is to enhance problem-solving skills by tackling a wide range of DSA questions with optimized and well-structured solutions.
 
