@@ -1,0 +1,23 @@
+#include <vector>
+#include <algorithm> // For std::max
+
+using namespace std;
+
+class Solution {
+public:
+    int maxSubArray(vector<int>& nums) {
+        int max_current = nums[0]; // Initialize with the first element
+        int max_global = nums[0];  // Initialize with the first element
+
+        // Iterate through the array starting from the second element
+        for (int i = 1; i < nums.size(); i++) {
+            // Update max_current to be the maximum of the current element or the sum of max_current and the current element
+            max_current = max(nums[i], max_current + nums[i]);
+
+            // Update max_global to be the maximum of max_global and max_current
+            max_global = max(max_global, max_current);
+        }
+
+        return max_global;
+    }
+};
