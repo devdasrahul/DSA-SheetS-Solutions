@@ -1,4 +1,4 @@
-# DSA-SheetS-Solutions
+# DSA-Sheet-Solutions
 
 This repository contains my solutions to multiple Data Structures and Algorithms (DSA) problem sheets from various creators. The goal is to enhance problem-solving skills by tackling a wide range of DSA questions with optimized and well-structured solutions.
 
